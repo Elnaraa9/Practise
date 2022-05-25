@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Italianno&family=Kaushan+Script&family=Montserrat:wght@200;300;500&family=Pinyon+Script&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,800;8..144,900;8..144,1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="./assets/js/index.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Fiorello-A Flower Shop</title>
+</head>
+
+<body>
+    <!-- <header>
+        <nav class="navbar">
+            <img class="logo" src="./assets/sass/image/h2-logo-1.png" alt="This is logo">
+            <ul class="navbar_ul">
+                <li><a href="home" class="active">HOME</a></li>
+                <div class="drpdwn">
+                    <div class="drpdwn-home">
+                        <a href="main" class="underline-a">Main Home</a>
+                        <a href="grid" class="underline-a">Grid Home</a>
+                        <a href="shop" class="underline-a">Flower Shop</a>
+                        <a href="slider" class="underline-a">Animated Slider</a>
+                        <a href="showcase" class="underline-a">Metro Showcase</a>
+                        <a href="showcase" class="underline-a">Carousel Showcase</a>
+                        <a href="landing" class="underline-a">Landing</a>
+                    </div>
+                    <li><a href="pages">PAGES</a></li>
+                    <div class="drpdwn-pages">
+                        <a href="about" class="underline-a">About Us</a>
+                        <a href="faq" class="underline-a">FAQ Page</a>
+                        <a href="contact" class="underline-a">Contact Us</a>
+                    </div>
+                </div>
+                <li><a href="shop">SHOP</a></li>
+                <div class="drpdwn">
+                    <div class="drpdwn-list-product">
+                        <p>Product Types</p>
+                        <a href="product" class="underline-a">Standard Product</a>
+                        <a href="product" class="underline-a">Grouped Product</a>
+                        <a href="product" class="underline-a">Variable Product</a>
+                        <a href="product" class="underline-a">Virtual Product</a>
+                        <a href="product" class="underline-a">External Product</a>
+                        <a href="product" class="underline-a">Downloadable Product</a>
+                        <a href="product" class="underline-a">On Sale Product</a>
+                        <a href="product" class="underline-a">Out Of Stock Product</a>
+                        <a href="product" class="underline-a">New Product</a>
+                    </div>
+                    <div class="drpdwn-list-shoppages">
+                        <p>Shop Pages</p>
+                        <a href="pages" class="underline-a">My Account</a>
+                        <a href="pages" class="underline-a">Cart</a>
+                        <a href="pages" class="underline-a">Checkout</a>
+                        <a href="pages" class="underline-a">Orders</a>
+                        <a href="pages" class="underline-a">Downloads</a>
+                    </div>
+                    <div class="drpdwn-list-shoptypes">
+                        <p>Shop Types</p>
+                        <a href="types" class="underline-a">Product List</a>
+                        <a href="types" class="underline-a">Without Sidebar</a>
+                        <a href="types" class="underline-a">With Category Filter</a>
+                        <a href="types" class="underline-a">With Ordering Filter</a>
+                        <a href="types" class="underline-a">Shop Carousel</a>
+                        <a href="types" class="underline-a">Product Categories</a>
+                        <a href="types" class="underline-a">Single Category</a>
+                    </div>
+                    <div class="drpdwn-list-shoplayouts">
+                        <p>Shop Layouts</p>
+                        <a href="layouts" class="underline-a">Two Columns Grid</a>
+                        <a href="layouts" class="underline-a">Three Columns Grid</a>
+                        <a href="layouts" class="underline-a">Four Columns Grid</a>
+                        <a href="layouts" class="underline-a">Four Columns Wide</a>
+                        <a href="layouts" class="underline-a">Five Columns Wide</a>
+                        <a href="layouts" class="underline-a">Six Columns Wide</a>
+                    </div>
+                </div>
+                <li><a href="portfolio">PORTFOLIO</a></li>
+                <div class="portfolio-drpdwn">
+                    <div class="drpdwn-inner">
+                        <a href="standard" class="underline-a">Standard</a>
+                        <a href=" gallery" class="underline-a">Gallery</a>
+                        <a href="masonry" class="underline-a">Masonry</a>
+                        <a href="layouts" class="underline-a">Portfolio Layouts<i class="fas fa-angle-right"></i></a>
+                    </div>
+                    <div class="drpdwn-inner">
+                        <a href="columns" class="underline-a">Two Columns</a>
+                        <a href="columns" class="underline-a">Three Columns</a>
+                        <a href="columns" class="underline-a">Four Columns</a>
+                        <a href="columns" class="underline-a">Four Columns Wide</a>
+                        <a href="columns" class="underline-a">Five Columns Wide</a>
+                    </div>
+                    <a href="single">Portfolio Single<i class="fas fa-angle-right"></i></a>
+                    <div class="drpdwn-inner">
+                        <a href="images" class="underline-a">Small Images</a>
+                        <a href="slider" class="underline-a">Small Slider</a>
+                        <a href="images" class="underline-a">Big Images</a>
+                        <a href="slider" class="underline-a">Big Slider</a>
+                        <a href="gallery" class="underline-a">Gallery</a>
+                    </div>
+                </div>
+                <li><a href="blog">BLOG</a></li>
+                <div class="blog-drpdwn">
+                    <div class="drpdwn-inner">
+                        <a href="masonry" class="underline-a">Masonry</a>
+                        <a href="standard" class="underline-a">Standard</a>
+                        <a href="posttypes" class="underline-a">Post Types<i class="fas fa-angle-right"></i></a>
+                    </div>
+                    <div class="drpdwn-inner">
+                        <a href="standard" class="underline-a">Standard</a>
+                        <a href="gallery" class="underline-a">Gallery</a>
+                        <a href="link" class="underline-a">Link</a>
+                        <a href="quote" class="underline-a">Quote</a>
+                        <a href="audio" class="underline-a">Audio</a>
+                        <a href="video" class="underline-a">Video</a>
+                    </div>
+                </div>
+                <li><a href="elements">ELEMENTS</a></li>
+                <div class="elements-drpdwn">
+                    <a href="classic">Classic<i class="fas fa-angle-right"></i></a>
+                    <div class="drpdwn-inner">
+                        <a href="accordions" class="underline-a">Accordions</a>
+                        <a href="tabs" class="underline-a">Tabs</a>
+                        <a href="buttons" class="underline-a">Buttons</a>
+                        <a href="vbuttons" class="underline-a">Video Button</a>
+                        <a href="form" class="underline-a">Contact Form</a>
+                    </div>
+                    <a href="infographic">Infographic<i class="fas fa-angle-right"></i></a>
+                    <div class="drpdwn-inner">
+                        <a href="list" class="underline-a">Blog List</a>
+                        <a href="counters" class="underline-a">Counters</a>
+                        <a href="countdown" class="underline-a">Countdown</a>
+                        <a href="maps" class="underline-a">Google Maps</a>
+                        <a href="bar" class="underline-a">Progress Bar</a>
+                        <a href="charts" class="underline-a">Pie Charts</a>
+                    </div>
+                    <a href="interactive">Interactive<i class="fas fa-angle-right"></i></a>
+                    <div class="drpdwn-inner">
+                        <a href="gallery" class="underline-a">Image Gallery</a>
+                        <a href="testimonials" class="underline-a">Testimonials</a>
+                        <a href="team" class="underline-a">Team</a>
+                        <a href="banner" class="underline-a">Banner</a>
+                        <a href="list" class="underline-a">Shop List</a>
+                        <a href="list" class="underline-a">Portfolio List</a>
+                    </div>
+                    <a href="typography">Typography<i class="fas fa-angle-right"></i></a>
+                    <div class="drpdwn-inner">
+                        <a href="headings" class="underline-a">Headings</a>
+                        <a href="columns" class="underline-a">Columns</a>
+                        <a href="title" class="underline-a">Section Title</a>
+                        <a href="blockquote" class="underline-a">Blockquote</a>
+                        <a href="dropcaps" class="underline-a">Dropcaps</a>
+                        <a href="highlights" class="underline-a">Highlights</a>
+                        <a href="separators" class="underline-a">Separators</a>
+                        <a href="font" class="underline-a">Custom Font</a>
+                    </div>
+                </div>
+                <li class="search"><a href="icon"><i class="fas fa-search"></i></a></li>
+                <li><i class="fas fa-shopping-bag"></i><a href="cart">CART ($0)</a></li>
+                <div class="drpdwn">
+                    <a href="warning">No products in the cart.</a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section id="first">
+        <div class="slider-text">
+            <h3>Send <span>flowers</span> like you mean it.</h3>
+            <p>Where flowers are our inspiration to create lasting memories. Whatever the occasion, our flowers will
+                make it special cursus a sit amet mauris.</p>
+            <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h2-sign-img.png" alt="Logo">
+        </div>
+        <div id="container">
+
+        </div>
+    </section> -->
+
+    <!-- <div class="second_header"> -->
+    <!-- <ul>
+            <li><a href="all" class="active">ALL</a></li>
+            <li><a href="cactuses">CACTUSES</a></li>
+            <li><a href="exotic">EXOTIC</a></li>
+            <li><a href="greens">GREENS</a></li>
+            <li><a href="popular">POPULAR</a></li>
+            <li><a href="various">VARIOUS</a></li>
+            <li><a href="winter">WINTER</a></li>
+        </ul> -->
+    <!-- </div> -->
+
+    <section id="second">
+            <div id="filters">
+                <ul id="categories" class="my-list">
+                    <li data-filter="*" class="active">ALL</li>
+                    <li data-filter=".cactuses">CACTUSES</li>
+                    <li data-filter=".exotic">EXOTIC</li>
+                    <li data-filter=".greens">GREENS</li>
+                    <li data-filter=".popular">POPULAR</li>
+                    <li data-filter=".various">VARIOUS</li>
+                    <li data-filter=".winter">WINTER</li>
+
+                    <span id="filter-span">FILTER <i class="fa-solid fa-caret-down"></i>
+                        <div id="filter-dropdown">
+                            <ul id="sort_by">
+                                <li><a href="">
+                                        <h2 id="sort-h2-font">Sort By</h2>
+                                    </a></li>
+                                <li><a href="">Default</a></li>
+                                <li><a href="">Popularity</a></li>
+                                <li><a href="">Newness</a></li>
+                                <li><a href="">Price:Low To High</a></li>
+                                <li><a href="">Price:Hogh To Low</a></li>
+                            </ul>
+                            <ul id="price_range">
+                                <li><a href="">
+                                        <h2 id="price-h2-font">Price Range</h2>
+                                    </a></li>
+                                <li><a href="">All</a></li>
+                                <li><a href="">$0-$10</a></li>
+                                <li><a href="">$10-$20</a></li>
+                                <li><a href="">$20-$30</a></li>
+                                <li><a href="">$30-$40</a></li>
+                                <li><a href="">40$+</a></li>
+                            </ul>
+                        </div>
+                    </span>
+                </ul>
+            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="./assets/image/majesty.jpg" alt="MAJESTY PALM photo">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/image/fox.jpg" alt="FOXGLOVE FLOWER photo">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/image/sweet.jpg" alt="SWEET ALYSSUM photo">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/image/spring.jpg" alt="SPRING SNOWFLAKE photo">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/image/scarlet.jpg" alt="SCARLET SAGE photo">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/image/rock.jpg" alt="ROCK SOAPWORT photo">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/image/summerjpg.jpg" alt="SUMMER SAVORY photo">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/image/wild.jpg" alt="WILD ROSES photo">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+</body>
+
+</html>
