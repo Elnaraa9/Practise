@@ -1,5 +1,5 @@
-$(".test").isotope({
-    itemSelector:".nested-card",
+$(".card").isotope({
+    itemSelector:".test",
     layoutMode: 'fitRows'
 })
 
@@ -8,7 +8,7 @@ $(".my-list li").click(function(){
 //   $(this).addClass("active");
 
    var selector = $(this).attr("data-filter");
-   $(".test").isotope({
+   $(".card").isotope({
       filter:selector
 })
 })
